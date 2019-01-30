@@ -1,0 +1,15 @@
+{
+  "hosting": {
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ], 
+    "redirects": [ {
+      "source" : "/lua-de-mel",
+      "destination" : "luademel/index.html",
+      "type" : 301
+    }]
+  }
+}
